@@ -15,7 +15,8 @@
 #
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/lenovo/achilles-kernel/kernel
+#LOCAL_KERNEL := device/lenovo/achilles-kernel/kernel
+LOCAL_KERNEL := device/lenovo/achilles/kernel
 else
 LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
